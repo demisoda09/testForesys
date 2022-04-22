@@ -20,3 +20,4 @@ spring:
            - Path=/api3/**
           filters:
             - RewritePath=/api3/(?<path>.*),/$\{path}
+#            
